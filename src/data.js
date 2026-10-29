@@ -50,6 +50,13 @@ export const projects = [
     category: 'data',
   },
   {
+    title: 'Sales Data Cleaning and Dashboard',
+    description: 'Cleaned a 9,800-row sales dataset using Python (Pandas): converted date strings, removed 11 rows with missing postal codes, confirmed no duplicates and exported a cleaned CSV. Built a PivotTable dashboard showing sales by category and yearly trend (2015–2018).',
+    tags: ['Python', 'Pandas', 'Microsoft Excel', 'PivotTables', 'Data Cleaning'],
+    github: 'https://github.com/ma-ze555/Task_1',
+    category: 'data',
+  },
+  {
     title: 'MediaNest',
     description: 'A full-stack media tracker for anime, movies, series, music, and novels, with JWT authentication, real-time search via TMDB, Jikan and Google Books APIs, deployed on Vercel and Render.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT'],
