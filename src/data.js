@@ -1,8 +1,8 @@
 // Edit your content here.
 export const skills = {
-  'Data Analysis': [['Microsoft Excel', 75], ['Power BI', 40], ['SQL', 25], ['Python / Pandas', 25]],
-  'Web Development': [['React', 60], ['Node.js', 55], ['MongoDB', 50], ['Tailwind CSS', 55]],
-  'Other': [['Git / GitHub', 55], ['Content Writing', 80]],
+  'Data Analysis': ['Microsoft Excel', 'Power BI', 'SQL', 'Python / Pandas'],
+  'Web Development': ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
+  'Other': ['Git / GitHub', 'Content Writing'],
 };
 
 export const experience = [
