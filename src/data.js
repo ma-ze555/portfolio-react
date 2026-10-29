@@ -1,6 +1,6 @@
 // Edit your content here.
 export const skills = {
-  'Data & Analytics': [['Microsoft Excel', 75], ['Power BI', 60], ['SQL', 55]],
+  'Data & Analytics': [['Microsoft Excel', 75], ['Power BI', 60], ['SQL', 25]],
   'Tools': [['Git', 50], ['VS Code', 70], ['Prompt Engineering', 80]],
   'Other': [['Vibe Coding', 75], ['Content Writing', 80]],
 };

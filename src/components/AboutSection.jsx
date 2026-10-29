@@ -27,7 +27,7 @@ export default function AboutSection() {
           {hasPhoto && <img src="/profile.jpg" alt="Mamta Kumari Jaiswal" style={S.img} onError={() => setHasPhoto(false)} />}
         </div>
         <div style={{ width: '100%' }}>
-          <p style={S.bio}>Passionate about building meaningful tech and turning ideas into real solutions through code. Currently exploring software development and always looking to learn, grow, and connect with like-minded people in the tech space. Open to networking, collaborations, and new opportunities. Let's connect!</p>
+          <p style={S.bio}>Aspiring Data Analyst passionate about turning raw data into meaningful insights. Currently pursuing B.E. in Information Science and Engineering, with hands-on experience in Excel, Power BI, and data-driven decision-making through real-world internships. Always looking to learn, grow, and connect with like-minded people in the data and tech space. Open to networking, collaborations, and new opportunities. Let's connect!</p>
           <h3 style={{ fontFamily: serif, marginBottom: 18 }}>Education</h3>
           <ul style={S.tl} aria-label="Education timeline">
             {education.map(([school, degree, years]) => (
