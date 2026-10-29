@@ -1,31 +1,34 @@
 // Edit your content here.
 export const skills = {
-  'Data & Analytics': [['Microsoft Excel', 75], ['Power BI', 60], ['SQL', 25]],
-  'Tools': [['Git', 50], ['VS Code', 70], ['Prompt Engineering', 80]],
-  'Other': [['Vibe Coding', 75], ['Content Writing', 80]],
+  'Data Analysis': [['Microsoft Excel', 75], ['Power BI', 40], ['SQL', 25], ['Python / Pandas', 25]],
+  'Web Development': [['React', 60], ['Node.js', 55], ['MongoDB', 50], ['Tailwind CSS', 55]],
+  'Other': [['Git / GitHub', 55], ['Content Writing', 80], ['Vibe Coding', 75]],
 };
 
 export const experience = [
   {
     role: 'Data Analyst Intern',
     company: 'Skillcraft Technology',
-    period: '2026',
+    period: '15 Sep 2026 – 15 Oct 2026',
     type: 'Internship',
     points: [
-      'Cleaned and validated marketing campaign data in Excel to improve consistency and quality.',
-      'Calculated key performance metrics including CTR, conversion rates, ROI, and ROAS.',
-      'Built an Excel dashboard and a business insights report with budget findings and recommendations.',
+      'Completed four assigned data tasks on datasets provided by Skillcraft using Excel, Power BI and Python.',
+      'Cleaned and validated marketing campaign data in Excel; calculated CTR, conversion rates, ROI and ROAS across platforms.',
+      'Built an interactive Power BI dashboard on HR employee attrition with slicers for job role, department, gender and age group.',
+      'Cleaned a 9,800-row sales dataset using Python (Pandas) and built a PivotTable dashboard showing sales by category and yearly trend.',
+      'Delivered a marketing campaign dashboard and a business insights report with budget findings and recommendations.',
     ],
-    tags: ['Microsoft Excel', 'Data Analysis', 'Dashboard', 'Marketing Analytics'],
+    tags: ['Microsoft Excel', 'Power BI', 'Python', 'Pandas', 'Data Cleaning', 'KPI Analysis', 'Dashboarding'],
   },
   {
-    role: 'Content Writer',
+    role: 'Content Writing Intern',
     company: 'Inamigos Foundation',
-    period: '2026',
+    period: '29 Mar 2026 – 11 Apr 2026',
     type: 'Internship',
     points: [
-      'Authored engaging articles on LinkedIn to raise awareness about the foundation\'s mission and initiatives.',
-      'Used social media to promote the organization\'s work and support fundraising campaigns, increasing online visibility and community engagement.',
+      'Wrote LinkedIn articles to raise awareness about the foundation\'s mission and initiatives.',
+      'Promoted the foundation\'s work and supported fundraising campaigns on LinkedIn, increasing online visibility and community engagement.',
+      'Awarded a Certificate of Achievement for content writing.',
     ],
     tags: ['Content Writing', 'LinkedIn', 'Social Media'],
   },
@@ -33,9 +36,23 @@ export const experience = [
 
 export const projects = [
   {
+    title: 'Marketing Campaign Performance Analysis',
+    description: 'Analyzed 767 daily campaign records across Facebook, Google Ads, Instagram, LinkedIn and YouTube. Calculated CTR, conversion rates, ROI and ROAS per platform and built a dashboard with charts. Finding: LinkedIn had the highest ROI (2,444%) and actual spend far exceeded planned budget.',
+    tags: ['Microsoft Excel', 'PivotTables', 'Data Analysis', 'KPI', 'Dashboard'],
+    github: '',
+    category: 'data',
+  },
+  {
+    title: 'HR Employee Attrition Dashboard',
+    description: 'Built a two-page interactive Power BI dashboard with slicers for job role, department, gender, overtime and age group. Visuals cover attrition by department, job role, overtime, age band, monthly income band and job satisfaction.',
+    tags: ['Power BI', 'Data Visualization', 'HR Analytics', 'Dashboard'],
+    github: '',
+    category: 'data',
+  },
+  {
     title: 'MediaNest',
-    description: 'A full-stack media tracker for anime, movies, series, music, and novels, with secure login and deployment on Vercel and Render.',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Zustand', 'JWT'],
+    description: 'A full-stack media tracker for anime, movies, series, music, and novels, with JWT authentication, real-time search via TMDB, Jikan and Google Books APIs, deployed on Vercel and Render.',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT'],
     github: 'https://github.com/ma-ze555/medianest',
     demo: 'https://medianest-gray.vercel.app',
   },
