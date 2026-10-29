@@ -2,7 +2,7 @@
 export const skills = {
   'Data Analysis': [['Microsoft Excel', 75], ['Power BI', 40], ['SQL', 25], ['Python / Pandas', 25]],
   'Web Development': [['React', 60], ['Node.js', 55], ['MongoDB', 50], ['Tailwind CSS', 55]],
-  'Other': [['Git / GitHub', 55], ['Content Writing', 80], ['Vibe Coding', 75]],
+  'Other': [['Git / GitHub', 55], ['Content Writing', 80]],
 };
 
 export const experience = [
@@ -39,14 +39,14 @@ export const projects = [
     title: 'Marketing Campaign Performance Analysis',
     description: 'Analyzed 767 daily campaign records across Facebook, Google Ads, Instagram, LinkedIn and YouTube. Calculated CTR, conversion rates, ROI and ROAS per platform and built a dashboard with charts. Finding: LinkedIn had the highest ROI (2,444%) and actual spend far exceeded planned budget.',
     tags: ['Microsoft Excel', 'PivotTables', 'Data Analysis', 'KPI', 'Dashboard'],
-    github: '',
+    github: 'https://github.com/ma-ze555/Task_4',
     category: 'data',
   },
   {
     title: 'HR Employee Attrition Dashboard',
     description: 'Built a two-page interactive Power BI dashboard with slicers for job role, department, gender, overtime and age group. Visuals cover attrition by department, job role, overtime, age band, monthly income band and job satisfaction.',
     tags: ['Power BI', 'Data Visualization', 'HR Analytics', 'Dashboard'],
-    github: '',
+    github: 'https://github.com/ma-ze555/Power_BI',
     category: 'data',
   },
   {
